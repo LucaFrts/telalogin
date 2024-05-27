@@ -1,0 +1,277 @@
+body {
+    box-sizing: border-box;
+
+    padding: 0;
+
+    width: 900px;
+
+    position: absolute;
+
+    margin: auto;
+
+    height: 100vh; 
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+
+
+
+h2:hover{
+
+    color: #2e75df;
+    transition: 0.3s;
+    
+}
+
+
+.span {
+    position: absolute;
+    top:0px;
+    display: block;
+    width: 50vw;
+    border: 3px solid #052C65;
+}
+
+    
+
+#login {
+
+    display: flex;
+    
+    flex-direction: column;
+
+    align-items: start;
+
+    /* height: 100vh; */
+
+    padding: 0 40px;
+
+    font-family: "Open Sans", sans-serif;
+    
+    font-weight: bold;
+
+}
+
+
+#login:hover {
+
+    transition: 1.3s;
+    /* height: 100vh; */
+    
+    font-weight: bold;
+
+}
+
+
+.card {
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 10px;
+
+    color: #052C65;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 19px;
+
+    opacity: 1;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: bold;
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+    
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:5px 8px;
+
+    border:#E1E0E0;
+    
+    border-radius: 7px;
+
+    border: 2px solid #D9D9D9;
+
+    outline: none;
+
+    height: 35px;
+
+    color: #0e0d0d;
+
+    background-color: #fcfbfbc7;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 40px 40px;
+
+    margin: 8px 0;
+
+    box-sizing: border-box;
+
+    border: 3px solid #ccc;
+
+    -webkit-transition: 0.1s;
+
+    transition: 0.1s;
+
+    outline: none;
+  }
+
+  input:focus {
+     
+    border: 3px solid #2e75df;
+  }
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+.actions {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.actions__div {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
+    font-size: 1.1rem;
+
+    font-weight: 700;.Navbar {
+
+    background-color: #46ACC2;
+
+    display: flex;
+
+    padding: 16px;
+
+    font-family: sans-serif;
+
+    color: white
+
+      }
+    
+
+    }
+hr {
+        display:flex;
+        margin-top:0%;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right:auto;
+        border-style:hidden;
+        border-width: 2px;
+      }
+
+.card-footer .submit{
+
+    transition: 0.3s;
+
+    width: 95px;
+
+    background-color: #052C65;
+
+    color: white;
+
+    font-weight: 600; 
+
+    padding: 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+    border-radius: 5px;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-footer .submit:hover{
+
+    background-color: #2e75df;
+
+    transition: 0.3s;
+    
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    font-weight: 00;
+
+}
+
+h2{
+    margin-top: 0;
+}
